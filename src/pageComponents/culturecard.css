@@ -1,0 +1,60 @@
+.h5-header {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  margin-bottom: 10px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.card-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #363636;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.card {
+  height: max-content;
+}
+
+
+@media screen and (max-width: 680px) {
+  .card {
+    height: max-content;
+  }
+}
+
+.text-header {
+  background-image: url(../assets/background-image.png);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -0.05em;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

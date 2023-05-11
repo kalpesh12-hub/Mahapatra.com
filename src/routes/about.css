@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #b94242;
+}
+
+.overview-header-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 112px;
+  letter-spacing: -0.04em;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: -16px 0px;
+}
+
+.overview-para-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #363636;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.image-container {
+    width: 100%;
+}

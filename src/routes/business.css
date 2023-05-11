@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.business-text-header {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -0.05em;
+  background-image: url(../assets/background-image.png);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+}
+
+.text-container-data {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 64px;
+  letter-spacing: -0.05em;
+  background-image: url(../assets/background-image.png);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+.text-contanner-h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 64px;
+  letter-spacing: -0.05em;
+  color: #b10000;
+}
+
+.h2-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 64px;
+  letter-spacing: -0.05em;
+  color: rgba(214, 0, 0, 0.81);
+}
+
+.para-container-p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #363636;
+}
+
+.h3-container {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29.1805px;
+  line-height: 41px;
+  letter-spacing: -0.02em;
+  color: #8a0000;
+}
+

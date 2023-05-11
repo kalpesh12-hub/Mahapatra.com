@@ -1,0 +1,92 @@
+.heading-container-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.leadership-heading {
+  background-image: url(../assets/background-image.png);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -0.05em;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.leadership-para {
+  background-image: url(../assets/background-image.png);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 27px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-bottom: 8%;
+}
+
+.image-data {
+  width: 100%;
+}
+
+.leadership-container {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 5px solid #8b0000;
+  border-radius: 11px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.name-section {
+  background-image: url(../assets/background-image.png);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Inter";
+  font-style: normal;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size: 27px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+}
+
+@media screen and (max-width: 680px) {
+  .leadership-heading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 34px;
+    text-align: center;
+    flex: none;
+  }
+}

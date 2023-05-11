@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.board-heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 27px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  background-image: url(../../assets/background-image.png);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+  background: #ffffff;
+  box-shadow: 7.32759px 8.7931px 5.86207px rgba(0, 0, 0, 0.15);
+  border-radius: 14.6552px;
+  padding: 10px;
+}
+
+.advisor-para {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.72px;
+  line-height: 19px;
+  text-align: center;
+  color: #434343;
+}
